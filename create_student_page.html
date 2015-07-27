@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="/bootstrap/css/bootstrap-theme.min.css">
+	<link type="text/css" rel="stylesheet" href="/bootstrap/css/style.css">
+	<nav class="navbar navbar-inverse navbar-fixed">
+      	<a class="navbar-brand" href="#"><strong>Module 2  CoE-9<strong></a>
+	</nav>
+    <title></title>
+</head>
+<body>
+<h1 style="color: black">Create new Student Account</h1>
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<form action='/student/create' method='post'>
+				<div class="row">
+		    		<input class="form-control" type='text' name='first_name' placeholder='Fist Name' required/>
+		    	</div>
+		    	</br>
+				<div class="row">
+		    	<input class="form-control" type='text' name='last_name' placeholder='Last Name' required/>
+		    		</div>
+		    	</br>
+				<div class="row">
+		    		<input class="form-control" type='number' name='age' placeholder='Age' required/>
+	    		</div>
+		    	</br>
+				<div class="row">
+		    		<input class="btn btn-primary btn-lg" type='submit' value='Create Account'></input>
+	    </div>
+		<div class="col-md-6"></div>
+	    	</form>
+	</div>
+</div>
+		</form>
+</body>
+	<script type="text/javascript" src = "/bootstrap/js/bootstrap.js"></script>
+</html>
